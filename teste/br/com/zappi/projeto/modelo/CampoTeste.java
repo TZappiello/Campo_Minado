@@ -20,7 +20,7 @@ public class CampoTeste {
 		boolean resultado = campo.adicionarVizinho(vizinho);
 		assertTrue(resultado);
 	}
-	
+
 	@Test
 	void testeVizinhoDistancia1Direita() {
 		Campo vizinho = new Campo(3, 4);
