@@ -14,7 +14,7 @@ public class Campo {
 	private boolean minado;
 	private boolean marcado;
 
-	private List<Campo> vizinhos = new ArrayList();
+	private List<Campo> vizinhos = new ArrayList<Campo>();
 
 	Campo(int linha, int coluna) {
 		this.linha = linha;
@@ -79,7 +79,7 @@ public class Campo {
 	public boolean isMinado() {
 		return minado;
 	}
-	
+
 	public boolean isMarcado() {
 		return marcado;
 	}
