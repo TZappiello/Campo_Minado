@@ -11,6 +11,7 @@ public class Aplicacao {
 
 		new TabuleiroConsole(tabuleiro);
 
+		//Teste configuração Laila
 	}
 
 }
